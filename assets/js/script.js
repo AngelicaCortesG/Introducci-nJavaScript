@@ -1,13 +1,8 @@
-let num = 400000;
-let text = num.toLocaleString();
-
-
-
 function multDosNumeros() {
 
     // Resultado de cantidad + precio
     cantidad = document.querySelector('#num1').value
-    mult = +cantidad * +text
+    mult = +cantidad * 400000
     resultado = document.querySelector('#resultado')
     resultado.innerHTML = 'El Total es $ ' + (mult)
 
